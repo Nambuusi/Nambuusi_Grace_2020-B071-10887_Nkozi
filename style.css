@@ -1,0 +1,230 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+}
+
+.Main{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid black;
+
+
+}
+
+#lst a{
+    font-weight: bolder;
+    text-decoration: none;
+    list-style: none;
+    font-size: large;
+
+
+}
+
+.vide{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 250px;
+}
+
+.vide img{
+    width: 400px;
+    height: 100px;
+
+}
+
+.cards{
+    width: 1200px;
+    align-self: center;
+    
+}
+
+.letf ul{
+    list-style-type: none;
+    text-decoration: none;
+    list-style: none;
+}
+
+.top{
+    background-color: rgb(31, 30, 30);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.top a{
+    color: red;
+
+    font-weight: bold;
+}
+
+.umu_logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* border: 1px solid rgb(216, 17, 17); */
+    height: 120px;
+   
+}
+.logo{
+    background-image: url("UMU-Website-Logo-3.png");
+    background-repeat: no-repeat;
+    /* border: 1px solid rgb(216, 17, 17); */
+    height: 120px;
+    justify-self: center;
+    width: 700px;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color:red;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: rgb(231, 40, 40);}
+
+
+.dropdown_menu{
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.Image_div{
+    background-image: url("umu_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    color: rgb(236, 48, 48);
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    font-size: large;
+}
+
+.image_divcontent{
+
+    margin-bottom: 100px;
+}
+#emails{
+    color: #ddd;
+    font-weight: normal;
+}
+
+.cards{
+    border: 1px solid green;
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #dad5d5;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+.icontop img{
+    width: 20px;
+    height: 20px;
+}
+#red_card{
+    color: red;
+    font-weight: bold;
+
+}
+#normal-card{
+    color: rgb(51, 50, 50);
+}
+
+#btnn{
+    width: 140px;
+    height: 35px;
+    border-radius: 325px;
+    color: rgb(88, 88, 87);
+
+}
+.footer{
+    color: rgb(102, 101, 101);
+    background-color: rgb(24, 23, 23);
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+
+}
+.title{
+    font-weight: bolder;
+    font-size: larger;
+    color: white;
+}
+
+#redd{
+    color: red;
+}
+.lastcopyright{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: rgb(102, 101, 101);
+    background-color: rgb(24, 23, 23);
+}
+.marquee{
+    height: 200px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.imageMar{
+    
+    border-bottom: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 200px;
+}
